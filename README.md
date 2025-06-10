@@ -1,62 +1,27 @@
+# 🗳️ Mini Voting System (C Project)
 
-# VOTE SYSTEM 
+A simple and user-friendly terminal-based voting system implemented in C. This project simulates an election process where users can input candidate details, cast votes, and view election results. Designed for educational purposes, it demonstrates structured programming, menu-driven logic, and basic algorithms for managing voting data.
 
-The Mini Voting System is a user-friendly C program designed to manage and conduct elections or
-polls. We have created functions for each feature, organize the code into a menu-driven structure 
-and developed algorithms for vote counting and option management.
+---
 
+## 📌 Features
 
-# Election System in C
+- **Candidate Information Input**: Add candidate name and age for a configurable number of participants.
+- **Voting System**: Users can cast votes for their preferred candidates.
+- **Result Display**: View candidate list with vote counts and announce the winner.
+- **Menu-Driven Interface**: Easy navigation between actions like voting, viewing results, and exiting.
 
-This C program implements a simple election system where users can input information about candidates, cast votes, and view the final election result. The program utilizes a structure named Candidates to store candidate details such as name, age, and votes.
+---
 
+## 🧠 Functions Overview
 
-# Features:
+| Function             | Description                                                  |
+|----------------------|--------------------------------------------------------------|
+| `candInfo`           | Inputs and stores candidate details (name, age).             |
+| `dispCands`          | Displays candidate list with all information.                |
+| `dispCandsNameOnly`  | Displays only the names of all candidates.                   |
+| `castVote`           | Handles user input to cast votes with validation.            |
+| `maxVote`            | Finds the candidate with the highest number of votes.        |
+| `result`             | Displays final election results and announces the winner.    |
 
-Candidate Information Input: Users can input information for a specified number of candidates, including name and age.
-
-Voting System: Allows users to cast votes for their preferred candidates.
-
-Result Display: Displays the list of candidates along with the final election result, including the winner.
-
-
-# How to Use:
-
-Run the program and input the number of candidates.
-
-Enter details for each candidate, including name and age.
-
-
-# Choose from the following options:
-
-Cast Vote (Option 1): Allows users to cast votes for their preferred candidates.
-
-Display Final Result (Option 2): Displays the list of candidates and announces the winner.
-
-Exit System Without Result (Option 3): Exits the program without displaying the result.
-
-
-
-
-# Functions:
-
-candInfo: Function to input candidate information.
-
-dispCands: Function to display the list of candidates with their information.
-
-dispCandsNameOnly: Function to display only the names of the candidates.
-
-castVote: Function to allow casting votes.
-
-maxVote: Function to find the candidate with the most votes.
-
-result: Function to display the election result.
-
-
-
-
-# Note:
-The program uses a structure array to store candidate details.
-Input validation is implemented to ensure a valid candidate number is entered during the voting process.
-
-
+---
